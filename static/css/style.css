@@ -3,6 +3,7 @@ body {
   margin: auto;
   padding: .2em;
   line-height: 1.5em;
+  font-size: 1.2rem;
 }
 
 /* Table of Contents, if wanted
@@ -22,16 +23,24 @@ output:
 
 /* Header and Footer */
 .menu li { display: inline-block; }
+.article-meta {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.article-meta .date {
+  font-size: 1.2rem;
+}
+
 .article-meta, .menu a {
   text-decoration: none;
-  background: #D2D6EF;
-  color: #FFF;
+  color: #000;
   padding: 5px;
   border-radius: 5px;
 }
 
 .terms { font-size: .9em; }
-.menu, .article-meta, footer { text-align: center; }
+.menu, footer { text-align: center; }
 .title { font-size: 1.1em; }
 footer a { text-decoration: none; }
 
@@ -43,7 +52,7 @@ footer a { text-decoration: none; }
 }
 
 a {
-  color: #613DC1;
+  color: #0000FF;
   text-decoration: none;
 }
 
@@ -57,9 +66,8 @@ header {
     width: 100%;
     height: 1.75rem;
     font-family: "Lucida Console" , "Liberation Mono";
-    font-size: .875rem;
-    background: #613DC1;
-    border-bottom: 1px solid #000;
+    font-size: 1rem;
+    background: #000;
 }
 
 header ul,
